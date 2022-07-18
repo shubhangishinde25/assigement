@@ -1,0 +1,4 @@
+r=$(( ( $RANDOM % 5 + 1 ) ));
+echo $r
+s=$(( ( $RANDOM % 10 + 1 ) ));
+echo $s

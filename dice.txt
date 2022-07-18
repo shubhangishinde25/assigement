@@ -1,0 +1,10 @@
+r=$(( ( $RANDOM % 50 + 1 ) ));
+echo $r
+s=$(( ( $RANDOM % 10 + 21 ) ));
+echo $s
+q=$(( ( $RANDOM % 100 + 10 ) ));
+echo $q
+y=$(( ( $RANDOM % 105 + 23 ) ));
+echo $y
+z=$(( ( $RANDOM % 11 + 20 ) ));
+echo $z

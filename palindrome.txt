@@ -1,0 +1,17 @@
+echo Enter the n
+read n
+num=0
+s=$n
+while [ $n -gt 0 ]
+do
+num=$(expr $num \* 10)
+t=$(expr $n % 10)
+num=$(expr $num + $s)
+n=$(expr $n / 10)
+done
+if [ $num -eq $s ]
+then
+echo palindrome
+else
+echo not palindrome
+fi
